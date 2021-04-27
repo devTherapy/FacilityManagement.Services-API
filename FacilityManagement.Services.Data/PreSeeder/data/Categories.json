@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Food",
+    "Description": "aenean fermentum donec ut mauris eget massa tempor convallis nulla"
+  },
+  {
+    "Name": "Facility",
+    "Description": "maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in"
+  },
+  {
+    "Name": "Appliances",
+    "Description": "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis"
+  },
+  {
+    "Name": "Others",
+    "Description": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis"
+  }
+
+]

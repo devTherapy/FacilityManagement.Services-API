@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.9.0" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="2.2.0" />
+    <PackageReference Include="SendGrid" Version="9.22.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FacilityManagement.Common.Utilities\FacilityManagement.Common.Utilities.csproj" />
+    <ProjectReference Include="..\FacilityManagement.Services.Data\FacilityManagement.Services.Data.csproj" />
+    <ProjectReference Include="..\FacilityManagement.Services.DTOs\FacilityManagement.Services.DTOs.csproj" />
+    <ProjectReference Include="..\FacilityManagement.Services.Models\FacilityManagement.Services.Models.csproj" />
+  </ItemGroup>
+
+</Project>
